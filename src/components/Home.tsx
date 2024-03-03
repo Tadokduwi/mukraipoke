@@ -14,7 +14,7 @@ const Home = () => {
   const [pokemonsData, setPokemonsData] = React.useState<Array<Pokemon>>([]);
 
   //Pagination
-  const [displayPokemons, setDisplayPokemons] = React.useState<Array<Pokemon>>([])
+  const [, setDisplayPokemons] = React.useState<Array<Pokemon>>([])
 
   //Search
   const [searchQuery, setSearchQuery] = React.useState('')
